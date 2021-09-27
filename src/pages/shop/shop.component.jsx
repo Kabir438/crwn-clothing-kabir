@@ -11,6 +11,9 @@ class ShopPage extends React.Component {
     this.state = {
       collections: SHOP_DATA
     };
+
+    document.title = 'Shop - Crown Clothing';
+    document.querySelector('link[rel="shortcut icon"]').href = "./shop.svg";
   }
 
   render() {
